@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" media="all" href="css/contatoestilo.css">
+        <title>Formulário de Contato</title>
+    </head>
+    <body>
+        <div>
+            <form name="meu-form">
+                <h1>Entre em contato</h1>
+
+                <div class="nome">
+                    <input type="text" id="nomeid" placeholder="Roberto Satch" required="required" name="nome" />
+                    <label for="nomeid">Nome</label>
+                </div>
+                <div class="fone">
+                    <input type="text" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+                    <label for="foneid">Fone</label>
+         
+                </div>
+                <div>
+                    <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+                    <label for="emailid">Email</label>
+                </div>
+                <div>
+                    <textarea placeholder="Deixe sua opnião"></textarea>
+                </div>
+                <div class="submit">
+                    <!-- <input type="submit" onclick="Enviar();" value="Enviar" /> -->
+                    <input type="submit" value="Enviar" />
+                </div>
+            </form>
+        </div>
+    </body>
+    <footer>
+        <script src="js/script.js"></script>
+    </footer>
+</html>
