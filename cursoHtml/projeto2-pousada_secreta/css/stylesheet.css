@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* body {
     font-family: "Source Sans Pro", sans-serif;
 }
@@ -95,6 +96,8 @@ a {
 
 
 
+=======
+>>>>>>> 9a33b6871516e7d881fa8025cc473e1d0617910d
 * { box-sizing: border-box;}
 
 body {
@@ -214,6 +217,10 @@ iframe {
     font-size: 32px;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+iframe {
+  width: 100%;
 }
 
 img {
