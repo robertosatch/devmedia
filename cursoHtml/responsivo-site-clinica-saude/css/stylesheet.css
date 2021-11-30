@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+    color: #0000008c;
+    font-family: "Source Sans Pro", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background: rgb(82, 214, 214);
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.menu-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-nav a {
+    color: beige;
+    text-decoration: none;
+    font-weight: bolder
+}
+
+.container-descricao {
+    background-image: url("../assets/recepcao.png");
+    background-size: cover;
+    height: 500px;
+}
