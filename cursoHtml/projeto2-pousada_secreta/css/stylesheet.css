@@ -77,10 +77,6 @@ a {
     text-decoration: none;;
 }
 
-.container-rota {
-    width: 100vw;
-}
-
 .container-descricao-pousadas {
     display: flex;
     flex-direction: row;
@@ -208,6 +204,10 @@ body {
   text-align: center;
   margin-bottom: 50px;
   padding-top: 50px;
+}
+
+iframe {
+  width: 100vw;
 }
 
 .secao-container h2{
