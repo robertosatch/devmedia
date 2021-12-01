@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 * {
-    color: #0000008c;
     font-family: "Source Sans Pro", sans-serif;
     box-sizing: border-box;
     margin: 0;
 }
 
-header {
+.container-nav {
+    display: flex;
     background: rgb(82, 214, 214);
-}
-
-.container {
-    width: 1024px;
-    margin: 0 auto;
 }
 
 .menu-nav {
@@ -21,7 +16,14 @@ header {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 3;
 }
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
 
 .menu-nav a {
     color: beige;
@@ -29,8 +31,24 @@ header {
     font-weight: bolder
 }
 
-.container-descricao {
+.menu-nav a:hover {
+    color: darkblue;
+}
+
+.container-titulo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo-img {
     background-image: url("../assets/recepcao.png");
     background-size: cover;
-    height: 500px;
+    height: 400px;
+}
+
+.titulo {
+    color: beige;
+    text-transform: uppercase;
+    width: 300px;
 }
