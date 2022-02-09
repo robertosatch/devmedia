@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid burlywood;
+    border-bottom: 1px solid burlywood;
+    padding: 45px 80px;
+}
+
+img {
+    width: 190px;
+}
+
+a {
+    background-color: green;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
