@@ -5,38 +5,41 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap">
     <title>CMLife - Home</title>
 </head>
 
 <body>
-    <header>
-        <nav class="container-nav">
-            <div class="container menu-nav">
+    <header class="topo">
+        <div class="container">
+            <div class="topo-titulo">
                 <a href="index.html">
-                    <img src="assets/logo.png" alt="Clínica Médica" title="Clínica Médica Life">
+                    <img class="topo-logo" src="assets/logo.png" alt="Clínica Médica" title="Clínica Médica Life">
                 </a>
-                <div>
-                    <a href="#sobre">Sobre</a>
-                    <a href="especialidades.html">Especialidades</a>
-                    <a href="#contato">Contato</a>
-                </div>
             </div>
-        </nav>
+            <nav class="topo-links">
+                <a href="#sobre">Sobre</a>
+                <a href="especialidades.html">Especialidades</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section class="container-titulo titulo-img">
-            <div class="container">
-                <h1 class="titulo">Clínica Médica Life Aqui a Gente Cuida</h1>
+        <section class="box-visao-geral">
+            <div class="box-visao-geral-titulo container">
+                <h1>Clínica Médica Life<br> Aqui a Gente Cuida</h1>
             </div>
         </section>
-        <section class="container" id="sobre">
-            <div>
+
+        <section id="sobre" class="box-sobre container">
+            <div class="container-conteudo">
                 <h2>Sobre a Clínica</h2>
                 <p>Nossa clínica está pronta para receber nossos pacientes através de uma excelente estrutura,
                     comodidade e com a segurança que você precisa.</p>
             </div>
-            <div>
+
+            <div class="box-sobre">
                 <img src="assets/medico.jpg" alt="Medico da Clínica Life" title="Médico da Clínica Life">
                 <h3>Aqui na nossa clínica você vai encontrar:</h3>
                 <ul>
@@ -49,32 +52,35 @@
                 </ul>
             </div>
         </section>
-        <section id="especialidades">
-            <div>
-                <h2>Uma clínica de multiespecialidade</h2>
+
+        <section id="especialidades" class="box-especialidades">
+            <div class="container-conteudo">
+                <h3>Uma clínica de multiespecialidade</h3>
                 <p>Nossa clínica possui diversas especialidades. Como ortopedia, pediatria, geriatria, psicologia,
                     fisioterapia e outros.</p>
             </div>
-            <div>
-                <figure>
+
+            <div class="box-especialidades">
+                <figure  class=" box-especialidade">
                     <img src="assets/ortopedia1.png" alt="Médico Ortopedista" title="Médico Especialista em Ortopedia">
                     <figcaption>Ortopedia</figcaption>
-                </figure>
+                </figure  class=" box-especialidade">
                 <figure>
                     <img src="assets/pediatra.png" alt="Médica Pediatra" title="Médica Especialista em Pediatria">
                     <figcaption>Pediatria</figcaption>
                 </figure>
-                <figure>
+                <figure  class=" box-especialidade">
                     <img src="assets/geriatra.png" alt="Médica Geriátrica" title="Médica Especialista em Geriatria">
                     <figcaption>Geriatria</figcaption>
                 </figure>
             </div>
-            <div>
-                <a href="#">Ver Horários</a>
+            <div class="box-link-horarios">
+                <a href="#" class="link-horarios">Ver Horários</a>
             </div>
         </section>
+
         <section id="contato">
-            <div>
+            <div class="container-conteudo container">
                 <h2>Contato</h2>
                 <p>Nossa clínica médica está aberta de <span>segunda à sábado das 06:00h às 21:00h</span></p>
                 <p>Através do telefone/WhatsApp <span>(21) 9999-9999</span> você pode fazer pode fazer o agendamento de
@@ -85,11 +91,11 @@
             <div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14692.471710812997!2d-43.3641911!3d-22.9826906!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1637705741419!5m2!1spt-BR!2sbr"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </section>
     </main>
-    <footer class="container">
+    <footer>
         <div>
             <img src="assets/logo.png">
             <p>Telefone e WhatsApp</p>
