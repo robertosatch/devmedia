@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.secao {
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.imagem-logo-tipo {
+    width: 200px;
+}
+
+a {
+    margin: 0 10px;
+    color: #542f0c;
+}
+
+.imagem-banner {
+    width: 700px;
+}
+
+.secao-destaque {
+    background-color: #de8e37;
+    color: #fff;
+}
+
+.secao-destaque img {
+    width: 400px;
+}
