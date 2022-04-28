@@ -45,3 +45,59 @@
     margin-top: 50px;
     padding: 0px
 }
+
+.text-destaque {
+    font-weight: bold;
+}
+
+.titulo {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.subtitulo-sobre {
+    color: #1c81c0;
+}
+
+.img-sobre {
+    width: 450px;
+}
+
+.texto-azul {
+    color: #1d80c1;
+}
+
+.texto-amarelo {
+    color: #fff81b;
+}
+
+#servicos {
+    background-color: #1d80c1;
+}
+
+#servicos p,
+#servicos li {
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+}
+
+#servicos p {
+    text-align: center;
+    width: 700px;
+}
+
+#servicos ul {
+    margin: 40px auto;
+    width: 135px;
+}
+
+#servicos li {
+    text-align: left;
+}
