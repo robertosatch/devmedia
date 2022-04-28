@@ -56,16 +56,16 @@
 }
 
 .subtitulo {
+    color: #1c81c0;
+}
+
+.subtitulo-servico {
     color: #ffffff;
     font-size: 28px;
     line-height: 42px;
 }
 
-.subtitulo-sobre {
-    color: #1c81c0;
-}
-
-.img-sobre {
+.larg-img {
     width: 450px;
 }
 
@@ -100,4 +100,34 @@
 
 #servicos li {
     text-align: left;
+}
+
+.conteiner-contato {
+    background-color: #1d80c1;
+}
+
+.text-contato {
+    color: #ffffff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.conteiner-contato ul {
+    margin: 40px auto;
+    width: 210px;
+    list-style: none;
+}
+
+.conteiner-contato li {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.conteiner-contato li a {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
 }
