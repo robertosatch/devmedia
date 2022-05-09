@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Fredoka;
+}
+
+.largura-limitada {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.img-secao-topo {
+    background-image: url("fonts_advocacia/img/capa.jpg");
+    min-height: 500px;
+    background-size: cover;
+    text-align: right;
+    border-top: 1px solid #d5d5d5;
+}
+
+.text-secao-topo {
+    padding: 50px 20px;
+}
+
+header p {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.conteudo {
+    padding: 50px 20px;
+}
+
+.img-conteudo {
+    width: 250px;
+    height: 180px;
+}
+
+.conteudo span {
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.conteudo p {
+    padding: 20px 0;
+}
+
+.img-fundo {
+    background-image: url("fonts_advocacia/img/fundo.jpg");
+    height: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-img-fundo {
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+}
