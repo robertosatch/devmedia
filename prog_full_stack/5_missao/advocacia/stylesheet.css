@@ -46,18 +46,18 @@ header p {
 }
 
 .img-fundo {
+    padding: 50px 0;
+    text-align: center;
     background-image: url("fonts_advocacia/img/fundo.jpg");
-    height: 100px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .text-img-fundo {
-    border-radius: 20px;
+    font-size: 36px;
     background-color: white;
-    padding: 10px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
 }
