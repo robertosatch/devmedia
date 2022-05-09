@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
     font-family: Fredoka;
 }
 
@@ -52,6 +51,9 @@ header p {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-img-fundo {
