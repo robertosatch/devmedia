@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.largura-limitada {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.topo {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.background-image {
+    background-image: url("../assets/capa.jpg");
+    background-size: cover;
+    min-height: 500px;
+}
+
+.background-sombra {
+    background-color: #00000085;
+    padding: 50px 0;
+}
+
+.background-text {
+    color: white;
+    font-weight: bold;
+    text-align: right;
+}
+
+.background-divisao {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #d92121;
+}
+
+.background-divisao h3 {
+    background-color: #6c0000;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.secao-conteudo {
+    padding: 50px 20px;
+}
+
+.secao-conteudo span {
+    border-left: 1px solid;
+    padding: 0 10px;
+}
+
+.secao-conteudo fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+}
+
+input, select {
+    margin: 12px 0;
+    height: 25px;
+}
+
+button {
+    width: 100%;
+    height: 32px;
+    border: none;
+    background-color: #d92121;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #d92121;
+    padding: 5px 0;
+}
