@@ -64,3 +64,60 @@
 .conteudo-secao-capa h2 {
     font-size: 35px;
 }
+
+h3 {
+    padding: 50px 0 30px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 35px;
+    margin: 20px 0;
+}
+
+.sobre img, .pontos img {
+    width: 100%;
+}
+
+.sobre p::first-letter, .pontos p::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pontos {
+    background-color: rgb(240, 223, 202);
+    padding-bottom: 60px;
+}
+
+.pontos li {
+    display: flex;
+    padding: 5px 0;
+    list-style: none;
+}
+
+.pontos li::before {
+    content: "";
+    background-image: url("../img/seta.png");
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.fotos img{
+    width: calc(100% / 3 - 3px);
+    opacity: 0.6;
+}
+
+.fotos img:hover {
+    opacity: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 213, 126);
+    margin-top: 70px;
+}
